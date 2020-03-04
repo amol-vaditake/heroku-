@@ -1,0 +1,53 @@
+{"_id":{"$oid":"5e5a125115523a1158b2ef91"},"name":"brand 1","price":"1000","category":"Male","image":"./img/img1"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef92"},"name":"brand 2","price":"4200","category":"Male","image":"./img/img2"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef93"},"name":"brand 3","price ":"1800","category":"Male","image":"./img/img3","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef94"},"name":"brand 4","price ":"2700","category":"Male","image":"./img/img4","price":"3000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef95"},"name":"brand 5","price ":"500","category":"Male","image":"./img/img5","price":"2555"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef96"},"name":"brand 6","price ":"7400","category":"Male","image":"./img/img6","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef97"},"name":"brand 7","price ":"400","category":"Male","image":"./img/img7","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef98"},"name":"brand 8","price ":"2000","category":"Male","image":"./img/img8","price":"1000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef99"},"name":"brand 9","price ":"6500","category":"Male","image":"./img/img9","price":"2525"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef9a"},"name":"brand 10","price ":"5600","category":"Male","image":"./img/img10","price":"2525"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef9b"},"name":"brand 11","price ":"3000","category":"Male","image":"./img/img11","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef9c"},"name":"brand 12","price ":"2500","category":"Male","image":"./img/img12","price":"3000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef9d"},"name":"brand 13","price ":"2000","category":"Male","image":"./img/img13","price":"3000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef9e"},"name":"brand 14","price ":"800","category":"Male","image":"./img/img14","price":"4000"}
+{"_id":{"$oid":"5e5a125115523a1158b2ef9f"},"name":"brand 15","price ":"3000","category":"Male","image":"./img/img15","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa0"},"name":"brand 16","price ":"1100","category":"Male","image":"./img/img16","price":"2522"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa1"},"name":"brand 17","price ":"700","category":"Male","image":"./img/img17","price":"2520"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa2"},"name":"brand 18","price ":"2800","category":"Male","image":"./img/img18","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa3"},"name":"brand 19","price ":"2000","category":"Male","image":"./img/img19","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa4"},"name":"brand 20","price ":"2500","category":"Male","image":"./img/img20","price":"2222"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa5"},"name":"brand 21","price":"1200","category":"Male","image":"./img/img21"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa6"},"name":"brand 22","price ":"3200","category":"Male","image":"./img/img22","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa7"},"name":"brand 23","price ":"2000","category":"Male","image":"./img/img23","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa8"},"name":"brand 24","price ":"2000","category":"Female","image":"./img/img24","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efa9"},"name":"brand 25","price ":"3000","category":"Female","image":"./img/img25","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efaa"},"name":"brand 26","price ":"5822","category":"Female","image":"./img/img26","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efab"},"name":"brand 27","price ":"5252","category":"Female","image":"./img/img27","price":"2300"}
+{"_id":{"$oid":"5e5a125115523a1158b2efac"},"name":"brand 28","price ":"2000","category":"Female","image":"./img/img28","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efad"},"name":"brand 29","price ":"5200","category":"Female","image":"./img/img29","price":"3500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efae"},"name":"brand 30","price ":"2000","category":"Female","image":"./img/img30","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efaf"},"name":"brand 31","price ":"2525","category":"Female","image":"./img/img31","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb0"},"name":"brand 32","price ":"2500","category":"Female","image":"./img/img32","price":"2400"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb1"},"name":"brand 33","price ":"2500","category":"Female","image":"./img/img33","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb2"},"name":"brand 34","price ":"2000","category":"Female","image":"./img/img34","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb3"},"name":"brand 35","price ":"3000","category":"Female","image":"./img/img35","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb4"},"name":"brand 36","price ":"4400","category":"Female","image":"./img/img36","price":"1000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb5"},"name":"brand 37","price ":"1000","category":"Female","image":"./img/img37","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb6"},"name":"brand 38","price ":"2000","category":"Female","image":"./img/img38","price":"2400"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb7"},"name":"brand 39","price ":"6222","category":"Female","image":"./img/img39","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb8"},"name":"brand 40","price ":"5222","category":"Female","image":"./img/img40","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efb9"},"name":"Nisse","price":"1800","category":"Kids","image":"./img/img41"}
+{"_id":{"$oid":"5e5a125115523a1158b2efba"},"name":"Corney","price ":"50","category":"Kids","image":"./img/img42","price":"2000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efbb"},"name":"Oberon","price ":"66","category":"Kids","image":"./img/img43","price":"2525"}
+{"_id":{"$oid":"5e5a125115523a1158b2efbc"},"name":"Tiertza","price ":"20","category":"Kids","image":"./img/img44","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efbd"},"name":"Erick","price ":"87","category":"Kids","image":"./img/img45","price":"3000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efbe"},"name":"Edin","price ":"74","category":"Kids","image":"./img/img46","price":"3500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efc0"},"name":"Rosene","price ":"93","category":"Kids","image":"./img/img47","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efc1"},"name":"Annabell","price ":"36","category":"Kids","image":"./img/img48","price":"1000"}
+{"_id":{"$oid":"5e5a125115523a1158b2efc2"},"name":"Donetta","price ":"84","category":"Kids","image":"./img/img49","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efc3"},"name":"Marena","price ":"81","category":"Kids","image":"./img/img50","price":"2600"}
+{"_id":{"$oid":"5e5a125115523a1158b2efc4"},"name":"Jori","price ":"11","category":"Kids","image":"./img/img51","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efc5"},"name":"Peta","price ":"18","category":"Kids","image":"./img/img52","price":"2500"}
+{"_id":{"$oid":"5e5a125115523a1158b2efc7"},"name":"Sharity","price ":"44","category":"Kids","image":"./img/img53","price":"2500"}

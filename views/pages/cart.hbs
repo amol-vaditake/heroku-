@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost:1234/mens"><b><em>Mens Shoes</em></b><span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost:1234/women"><b><em>Women Shoes</em></b> <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost:1234/kids"><b><em>Kids Shoes </em></b><span
+                        class="sr-only">(current)</span></a>
+            </li>
+    </div>
+</nav>
+
+
+
+<div class="container">
+    <br><br>
+    <div class="row ">
+        {{#each products}}
+        <div class="row">
+            <br><br>
+            <img src="{{this.image}}" style="border-radius: 50%;height: 150px;width: 400px;" alt="Avatar" class="col-2">
+            <p class="col-3"><br><br><b><em>Name:{{this.name}}</em></b></p>
+            <p class="col-2"><br><br><b><em>price:{{this.price}}</em></b></p>
+            <p class="col-2"><br><br><b><em>category:{{this.category}}</em></b></p>
+            <b style="margin-top: 50px;"><em>Quntity : </em></b> <br><br><input class="col-2" type="number"
+                style="height: 30px;width:50px;margin-top:50px" name="quntity" id="tentacles" name="tentacles" min="1"
+                max="100" value="1">
+            <br><br>
+            <form style="display: none;" id="my-form-{{this.name}}" action="/orders" method="POST">
+                <input type="text" name="id" value="{{this._id}}">
+                <input type="name" name="name" value="{{this.name}}">
+                <input type="name" name="price" value="{{this.price}}">
+                <input type="name" name="category" value="{{this.category}}">
+                <input type="text" name="image" value="{{this.image}}">
+            </form>
+
+            <button style="margin: auto;" type="submit"
+                style="width:150px;height:30px;background-color:green;margin-top:50px"
+                form="my-form-{{this.name}}">Place Order</button>
+        </div>
+        {{/each}}
+    </div>
+</div>

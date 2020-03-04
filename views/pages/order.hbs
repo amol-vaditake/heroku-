@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost:1234/mens"><b><em>Mens Shoes</em></b><span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost:1234/women"><b><em>Women Shoes</em></b> <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="http://localhost:1234/kids"><b><em>Kids Shoes </em></b><span
+                        class="sr-only">(current)</span></a>
+            </li>
+    </div>
+</nav>
+
+
+
+<div class="container">
+    <br><br>
+    <h3 style="text-align: center;">Your Orders</h3>
+    <br><br>
+    <div class="row ">
+        {{#each products}}
+        <div class="row">
+            <br><br>
+            <img src="{{this.image}}" style="border-radius: 50%;height: 150px;width: 400px;" alt="Avatar" class="col-2">
+            <p class="col-3"><br><br><b><em>Name:{{this.name}}</em></b></p>
+            <p class="col-2"><br><br><b><em>price:{{this.price}}</em></b></p>
+            <p class="col-2"><br><br><b><em>category:{{this.category}}</em></b></p>
+            <p class="col-2"><br><br><b><em>Order Staus: Successfull</em></b></p>
+            <br><br>
+        </div>
+
+        {{/each}}
+    </div>
+</div>
