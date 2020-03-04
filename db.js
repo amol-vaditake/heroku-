@@ -1,7 +1,7 @@
 var mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/feb", {
+  .connect("mongodb+srv://amol_vaditake:76xK1QipNcBf7DBY@cluster0-8o5ug.mongodb.net/feb?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
