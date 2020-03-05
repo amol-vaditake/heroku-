@@ -7,7 +7,7 @@ require("./utils/hbs");
 require("./db");
 var dotenv = require("dotenv")
 dotenv.config()
-
+var PORT = process.env.PORT || 3000;
 
 
 // Routes of both API as well as normal
@@ -69,7 +69,7 @@ app.get("/", function (req, res) {
     userId: req.session.userId
   });
 });
-var PORT = process.env.PORT || 3000;
+
 app.listen(PORT, function () {
   console.log(`Server started on port ${PORT}`);
 });
