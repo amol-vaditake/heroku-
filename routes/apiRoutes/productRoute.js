@@ -8,7 +8,7 @@ var fetch = require("node-fetch");
 
 
 router.get("/shoes", authenticate, function (req, res) {
-    var products = fetch("http://localhost:1234/products")
+    var products = fetch(`http://localhost:3000/products`)
         .then(function (products) {
             return products.json();
         })
@@ -24,7 +24,7 @@ router.get("/shoes", authenticate, function (req, res) {
 });
 
 router.get("/shoes/mens", authenticate, function (req, res) {
-    var products = fetch("http://localhost:1234/products2")
+    var products = fetch("http://localhost:3000/products2")
         .then(function (products) {
             return products.json();
         })
@@ -39,7 +39,7 @@ router.get("/shoes/mens", authenticate, function (req, res) {
 });
 
 router.get("/shoes/women", authenticate, function (req, res) {
-    var products = fetch("http://localhost:1234/products3")
+    var products = fetch("http://localhost:3000/products3")
         .then(function (products) {
             return products.json();
         })
@@ -54,7 +54,7 @@ router.get("/shoes/women", authenticate, function (req, res) {
 });
 
 router.get("/shoes/kids", authenticate, function (req, res) {
-    var products = fetch("http://localhost:1234/products4")
+    var products = fetch("http://localhost:3000/products4")
         .then(function (products) {
             return products.json();
         })
@@ -69,7 +69,7 @@ router.get("/shoes/kids", authenticate, function (req, res) {
 });
 
 router.get("/mens", authenticate, function (req, res) {
-    var products = fetch("http://localhost:1234/products2")
+    var products = fetch("http://localhost:3000/products2")
         .then(function (products) {
             return products.json();
         })
@@ -84,7 +84,7 @@ router.get("/mens", authenticate, function (req, res) {
 });
 
 router.get("/women", authenticate, function (req, res) {
-    var products = fetch("http://localhost:1234/products3")
+    var products = fetch("http://localhost:3000/products3")
         .then(function (products) {
             return products.json();
         })
@@ -169,7 +169,7 @@ router.post("/orders", function (req, res) {
 });
 
 router.get("/kids", authenticate, function (req, res) {
-    var products = fetch("http://localhost:1234/products4")
+    var products = fetch("http://localhost:3000/products4")
         .then(function (products) {
             return products.json();
         })
